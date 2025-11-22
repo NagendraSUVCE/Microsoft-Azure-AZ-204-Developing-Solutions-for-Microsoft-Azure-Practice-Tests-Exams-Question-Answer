@@ -946,6 +946,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 61
+
 ### You are developing a web service that will run on Azure virtual machines that use Azure Storage. You configure all virtual machines to use managed identities. You have the following requirements: Secret-based authentication mechanisms are not permitted for accessing an Azure Storage account. Must use only Azure Instance Metadata Service endpoints. You need to write code to retrieve an access token to access Azure Storage.
 
 ![Question 61](images/question61.jpg)
@@ -956,6 +958,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Code segment 1: `http://169.254.169.254:50432/metadata/identity/oauth2/token`. Code segment 2: `JsonConvert.DeserializeObject<Dictionary<string, string>>(payload);`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 62
 
 ### You are developing a new page for a website that uses Azure Cosmos DB for data storage. The feature uses documents that have the following format. You must display data for the new page in a specific order. You create the following query for the page. You need to configure a Cosmos DB policy to support the query. How should you configure the policy?
 
@@ -969,6 +973,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Box 1: `ascending`. Box 2: `descending`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 63
 
 ### You are building a traffic monitoring system that monitors traffic along six highways. The system produces time series analysis-based reports for each highway. Data from traffic sensors are stored in Azure Event Hub. Traffic data is consumed by four departments. Each department has an Azure Web App that displays the time series-based reports and contains a WebJob that processes the incoming data from Event Hub. All Web Apps run on App Service Plans with three instances. Data throughput must be maximized. Latency must be minimized. You need to implement the Azure Event Hub. Which settings should you use?
 
@@ -1004,6 +1010,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Box 1: No Filter. Box 2: `SQLFilter`. Box 3: `SQLFilter`. Box 4: `CorrelationFilter`. Box 5: `CorrelationFilter`.
 
 **[⬆ Back to Top](#table-of-contents)**
+### Question 66
 
 ### Your company has several websites that use a company logo image. You use Azure Content Delivery Network (CDN) to store the static image. You need to determine the correct process of how the CDN and the Point of Presence (POP) server will distribute the image and list the items in the correct order. In which order do the actions occur?
 
@@ -1025,7 +1032,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] A hash suffix appended to a property value.
 
 **[⬆ Back to Top](#table-of-contents)**
-
+### Question 68
 ### You are developing an Azure-hosted e-commerce web application. The application will use Azure Cosmos DB to store sales orders. You are using the latest SDK to manage the sales orders in the database. You create a new Azure Cosmos DB instance. You include a valid endpoint and valid authorization key to an `appSettings.json` file in the code project. You are evaluating the following application code: (Line number are included for reference only.). Question 1: A database named `SalesOrders` is created. The database will include two containers.
 
 ![Question 68](images/question68_69_70.png)
@@ -1043,7 +1050,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
-
+### Question 70
 ### You are developing an Azure-hosted e-commerce web application. The application will use Azure Cosmos DB to store sales orders. You are using the latest SDK to manage the sales orders in the database. You create a new Azure Cosmos DB instance. You include a valid endpoint and valid authorization key to an `appSettings.json` file in the code project. You are evaluating the following application code: (Line number are included for reference only.). Question 3: `Container2` will contain one item.
 
 ![Question 70](images/question68_69_70.png)
@@ -1063,6 +1070,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Store the data from which the change feed is generated: Monitored container. Coordinate processing of the change feed across multiple workers: Lease container. Use the change feed processor to listen for changes: Host. Handle each batch of changes: Delegate.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 72
 
 ### You develop a web application. You need to register the application with an active Microsoft Entra ID tenant. Which three actions should you perform in sequence?
 
@@ -1094,6 +1103,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Cosmos DB Account Reader.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 75
 
 ### You are developing a website that will run as an Azure Web App. Users will authenticate by using their Microsoft Entra ID credentials. You plan to assign users one of the following permission levels for the website: `admin`, `normal`, and `reader`. A user's Microsoft Entra ID group membership must be used to determine the permission level. You need to configure authorization. Solution: Configure the Azure Web App for the website to allow only authenticated requests and require Microsoft Entra ID log on. Does the solution meet the goal?
 
@@ -1135,6 +1146,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] OAuth Client Credential Grant.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 80
 
 ### You are developing an ASP.NET Core website that can be used to manage photographs which are stored in Azure Blob Storage containers. Users of the website authenticate by using their Microsoft Entra ID credentials. You implement role-based access control (RBAC) role permissions on the containers that store photographs. You assign users to RBAC roles. You need to configure the website's Microsoft Entra ID Application so that user's permissions can be used with the Azure Blob containers. How should you configure the application?
 
@@ -1188,6 +1201,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 86
+
 ### You plan to deploy a new application to a Linux virtual machine (VM) that is hosted in Azure. The entire VM must be secured at rest by using industry-standard encryption technology to address organizational security and compliance requirements. You need to configure Azure Disk Encryption for the VM. How should you complete the Azure CLI commands?
 
 ![Question 86](images/question86.jpg)
@@ -1228,6 +1243,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 91
 
 ### You are developing an application. You have an Azure user account that has access to two subscriptions. You need to retrieve a storage account key secret from Azure Key Vault. In which order should you arrange the PowerShell commands to develop the solution?
 
@@ -2419,4 +2436,5 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
 
