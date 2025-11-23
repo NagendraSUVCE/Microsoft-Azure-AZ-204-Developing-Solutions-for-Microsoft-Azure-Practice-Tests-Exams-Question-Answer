@@ -1271,6 +1271,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 94
+
 ### You are building a website that is used to review restaurants. The website will use an Azure CDN to improve performance and add functionality to requests. You build and deploy a mobile app for Apple iPhones. Whenever a user accesses the website from an iPhone, the user must be redirected to the app store. You need to implement an Azure CDN rule that ensures that iPhone users are redirected to the app store. How should you complete the Azure Resource Manager template?
 
 ![Question 94](images/question94.png)
@@ -1322,6 +1324,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] The Logic Apps Designer.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 100
 
 ### The cluster uses Azure Monitor for containers to monitor the cluster. The application has sticky sessions enabled on the ingress controller. Some customers report a large number of errors in the application over the last 24 hours. You need to determine on which virtual machines (VMs) the errors are occurring. How should you complete the Azure Monitor query?
 
@@ -1395,6 +1399,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 107
+
 ### You develop and deploy an Azure Logic App that calls an Azure Function app. The Azure Function App includes an OpenAPI (Swagger) definition and uses an Azure Blob storage account. All resources are secured by using Microsoft Entra ID. The Logic App must use Azure Monitor logs to record and store information about runtime data and events. The logs must be stored in the Azure Blob storage account. You need to set up Azure Monitor logs and collect diagnostics data for the Azure Logic App. Which three actions should you perform in sequence?
 
 ![Question 107](images/question107.png)
@@ -1416,6 +1422,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Box 1: Create a Log Analytics workspace. Box 2: Add a VMInsights solution. Box 3: Create an Application Insights resource. Box 4: Install agents on the VM and VM scale set to be monitored.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 109
 
 ### You have an application that provides weather forecasting data to external partners. You use Azure API Management to publish APIs. You must change the behavior of the API to meet the following requirements: Support alternative input parameters. Remove formatting text from responses. Provide additional context to back-end services. Which types of policies should you implement?
 
@@ -1486,6 +1494,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 116
+
 ### You manage several existing Logic Apps. You need to change definitions, add new logic, and optimize these apps on a regular basis. What should you use?
 
 ![Question 116](images/question116.jpg)
@@ -1505,6 +1515,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange object to parallelize the processing of the change feed across multiple functions.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 118
 
 ### You are developing an application that uses Azure Storage Queues. You have the following code. Question 1: The code configures the lock duration for the queue.
 
@@ -1532,6 +1544,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 121
 
 ### You develop software solutions for a mobile delivery service. You are developing a mobile app that users can use to order from a restaurant in their area. The app uses the following workflow: 1. A driver selects the restaurants for which they will deliver orders. 2. Orders are sent to all available drivers in an area. 3. Only orders for the selected restaurants will appear for the driver. 4. The first driver to accept an order removes it from the list of available orders. You need to implement an Azure Service Bus solution. Which three actions should you perform in sequence?
 
@@ -1575,6 +1589,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 125
+
 ### You are creating an app that uses Event Grid to connect with other services. Your app's event data will be sent to a serverless function that checks compliance. This function is maintained by your company. You write a new event subscription at the scope of your resource. The event must be invalidated after a specific period of time. You need to configure Event Grid. What should you do?
 
 ![Question 125](images/question125.jpg)
@@ -1585,6 +1601,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] WebHook event delivery: SAS tokens. Topic publishing: ValidationURL handshake.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 126
 
 ### You are working for Contoso, Ltd. You define an API Policy object by using the following XML markup. Question 1: The XML segment belongs in the `<inbound>` section of the policy.
 
@@ -1604,6 +1622,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 128
+
 ### You are working for Contoso, Ltd. You define an API Policy object by using the following XML markup. Question 3: If the request is `http://contoso.com/api/9.2/`, the policy will retain the higher version.
 
 ![Question 128](images/question126_127_128.png)
@@ -1621,6 +1641,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] `New-AzureRmApiManagementBackendProxy -Url $ApiUrl`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 130
 
 ### You are developing an Azure function that connects to an Azure SQL Database instance. The function is triggered by an Azure Storage queue. You receive reports of numerous System.InvalidOperationExceptions with the following message: 'Timeout expired. The timeout period elapsed prior to obtaining a connection from the pool. This may have occurred because all pooled connections were in use and max pool size was reached.' You need to prevent the exception. What should you do?
 
@@ -1674,6 +1696,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 135
+
 ### Determine whether the solution meets the stated goals. You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output. You must use a storage mechanism with the following requirements: Share session state across all ASP.NET web applications. Support controlled, concurrent access to the same session state data for multiple readers and a single writer. Save full HTTP responses for concurrent requests. You need to store the information. Proposed Solution: Enable Application Request Routing (ARR). Does the solution meet the goal?
 
 - [ ] Yes.
@@ -1705,6 +1729,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Box 1: `ICache cache = Connection.GetDatabase();`. Box 2: `cache StringGet('Team', '');`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 139
 
 ### A company has multiple warehouses. Each warehouse contains IoT temperature devices which deliver temperature data to an Azure Service Bus queue. You need to send email alerts to facility supervisors immediately if the temperature at a warehouse goes above or below specified threshold temperatures. Which five actions should you perform in sequence?
 
@@ -1792,6 +1818,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 155
+
 ### You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently. You have the following requirements: Queue size must not grow larger than 80 gigabytes (GB). Use first-in-first-out (FIFO) ordering of messages. Minimize Azure costs. You need to implement the messaging solution. Solution: Use the .Net API to add a message to an Azure Storage Queue from the mobile application. Create an Azure VM that is triggered from Azure Storage Queue events. Does the solution meet the goal?
 
 - [ ] Yes.
@@ -1833,6 +1861,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 160
+
 ### Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A fellow administrator named `Jon Ross` used an Azure Resource Manager template to deploy a virtual machine and an Azure Storage account. You need to identify the Azure Resource Manager template the Jon Ross used. Solution: You access the `Container` blade. Does the solution meet the goal?
 
 - [ ] Yes.
@@ -1867,6 +1897,8 @@ specified personnel if the temperature is outside of those thresholds.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 165
 
 ### You are developing a web app named `mywebapp1`. `Mywebapp1` uses the address `myapp1.azurewebsites.net`. You protect `mywebapp1` by implementing an Azure Web Application Firewall (WAF). The traffic to `mywebapp1` is routed through an Azure Application Gateway instance that is also used by other web apps. You want to secure all traffic to `mywebapp1` by using SSL. Solution: You open the Azure Application Gateway's HTTP setting and set the `Override` backend path option to `mywebapp1.azurewebsites.net`. You then add an authentication certificate for `mywebapp1.azurewebsites.net`. Does this meet the goal?
 
@@ -1909,6 +1941,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 171
+
 ### Your company has an Azure Kubernetes Service (AKS) cluster that you manage from an Microsoft Entra ID-joined device. The cluster is located in a resource group. Developers have created an application named `MyApp`. `MyApp` was packaged into a container image. You need to deploy the YAML manifest file for the application. Solution: You install the docker client on the device and run the `docker run -it microsoft/azure-cli:0.10.17` command. Does this meet the goal?
 
 - [ ] Yes.
@@ -1938,6 +1972,8 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 175
 
 ### You company has an on-premises deployment of MongoDB, and an Azure Cosmos DB account that makes use of the MongoDB API. You need to devise a strategy to migrate MongoDB to the Azure Cosmos DB account. You include the [Data Management Gateway] tool in your migration strategy.
 
@@ -1973,6 +2009,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 - [ ] Yes.
 - [x] No.
+
+### Question 180
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2061,6 +2099,8 @@ specified personnel if the temperature is outside of those thresholds.
 - [x] Yes.
 - [ ] No.
 
+### Question 185
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users' streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user. Solution: You include the use of a Storage Area Network (SAN) in your design. Does the solution meet the goal?
@@ -2106,6 +2146,8 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 190
 
 ### You are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers. You want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation venues. You want the application to list holiday accommodation venues that fall within a specific price range and are within a specified distance to an airport. What should you do?
 
@@ -2159,6 +2201,8 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Box 1: `sid`. Box 2: `enfpolids`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 195
 
 ### You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage. You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA: Messages are sent to `ContentUploadService`. Content is processed by `ContentAnalysisService`. After processing is complete, the content is posted to the social network or a rejection message is posted in its place. The `ContentAnalysisService` is deployed with Azure Container Instances from a private Azure Container Registry named `contosoimages`. The solution will use eight CPU cores. Microsoft Entra ID: Contoso, Ltd. uses Microsoft Entra ID for both internal and guest accounts. Requirements: `ContentAnalysisService` - The company's data science group built `ContentAnalysisService` which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd. You must create an Azure Function named `CheckUserContent` to perform the content checks. Costs: You must minimize costs for all Azure services. Manual review: To review content, the user must authenticate to the website portion of the `ContentAnalysisService` using their Microsoft Entra ID credentials. The website is built using React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes. High availability: All services must run in multiple regions. The failure of any service in a region must not impact overall application availability. Monitoring: An alert must be raised if the `ContentUploadService` uses more than 80 percent of available CPU cores. Security: You have the following security requirements: Any web service accessible over the Internet must be protected from cross site scripting attacks. All websites and services must use SSL from a valid root certificate authority. Azure Storage access keys must only be stored in memory and must be available only to the service. All Internal services must only be accessible from internal Virtual Networks (VNets). All parts of the system must support inbound and outbound traffic restrictions. All service calls must be authenticated by using Microsoft Entra ID. User agreements: When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses. Information regarding agreements is used by multiple divisions within Contoso, Ltd. User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour. Validation testing: When a new version of the `ContentAnalysisService` is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version. Issues: Users of the `ContentUploadService` report that they occasionally see HTTP `502` responses on specific pages. Code - `ContentUploadService` - `ApplicationManifest`. You need to ensure that network security policies are met. How should you configure network security?
 
@@ -2216,6 +2260,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 200
+
 ### You are developing an Azure App Service hosted ASP.NET Core web app to deliver video-on-demand streaming media. You enable an Azure Content Delivery Network (CDN) Standard for the web endpoint. Customer videos are downloaded from the web app by using the following example URL: `http://www.contoso.com/content.mp4?quality=1`. All media content must expire from the cache after one hour. Customer videos with varying quality must be delivered to the closest regional point of presence (POP) node. You need to configure Azure CDN caching rules. Which options should you use?
 
 ![Question 200](images/question200.jpeg)
@@ -2238,6 +2284,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 202
+
 ### A company backs up all manufacturing data to Azure Blob Storage. Admins move blobs from hot storage to archive tier storage every month. You must automatically move blobs to Archive tier after they have not been modified within 180 days. The path for any item that is not archived must be placed in an existing queue. This operation must be performed automatically once a month. You set the value of TierAgeInDays to -180. How should you configure the Logic App?
 
 ![Question 202](images/question202.jpeg)
@@ -2255,6 +2303,8 @@ specified personnel if the temperature is outside of those thresholds.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 204
 
 ### You have an Azure Web app that uses Cosmos DB as a data store. You create a CosmosDB container by running the following PowerShell script: `$resourceGroupName = 'testResourceGroup' $accountName = 'testCosmosAccount' $databaseName = 'testDatabase' $containerName = 'testContainer' $partitionKeyPath = '/EmployeeId' $autoscaleMaxThroughput = 5000 New-AzCosmosDBSqlContainer - -ResourceGroupName $resourceGroupName -AccountName $accountName -DatabaseName $databaseName -Name $containerName -PartitionKeyKind Hash -PartitionKeyPath $partitionKeyPath -AutoscaleMaxThroughput $autoscaleMaxThroughput`. You create the following queries that target the container: `SELECT * FROM c WHERE c.EmployeeId > '12345' SELECT * FROM c WHERE c.UserID = '12345'`. Is the first query statement an in-partition query?
 
@@ -2278,6 +2328,8 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] a client ID.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 207
 
 ### You develop an ASP.NET Core MVC application. You configure the application to track webpages and custom events. You need to identify trends in application usage. Which Azure Application Insights Usage Analysis features should you use?
 
@@ -2307,6 +2359,8 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 210
 
 ### You are developing an application that uses a premium block blob storage account. You are optimizing costs by automating Azure Blob Storage access tiers. You apply the following policy rules to the storage account. You must determine the implications of applying the rules to the data. (Line numbers are included for reference only.) Question 3: Blobs will automatically be tiered from cool back to hot if accessed again after being tiered to cool.
 
@@ -2362,6 +2416,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 215
+
 ### You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage. You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA: Messages are sent to `ContentUploadService`. Content is processed by `ContentAnalysisService`. After processing is complete, the content is posted to the social network or a rejection message is posted in its place. The `ContentAnalysisService` is deployed with Azure Container Instances from a private Azure Container Registry named `contosoimages`. The solution will use eight CPU cores. Microsoft Entra ID: Contoso, Ltd. uses Microsoft Entra ID for both internal and guest accounts. Requirements: `ContentAnalysisService` - The company's data science group built `ContentAnalysisService` which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd. You must create an Azure Function named `CheckUserContent` to perform the content checks. Costs: You must minimize costs for all Azure services. Manual review: To review content, the user must authenticate to the website portion of the `ContentAnalysisService` using their Microsoft Entra ID credentials. The website is built using React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes. High availability: All services must run in multiple regions. The failure of any service in a region must not impact overall application availability. Monitoring: An alert must be raised if the `ContentUploadService` uses more than 80 percent of available CPU cores. Security: You have the following security requirements: Any web service accessible over the Internet must be protected from cross site scripting attacks. All websites and services must use SSL from a valid root certificate authority. Azure Storage access keys must only be stored in memory and must be available only to the service. All Internal services must only be accessible from internal Virtual Networks (VNets). All parts of the system must support inbound and outbound traffic restrictions. All service calls must be authenticated by using Microsoft Entra ID. User agreements: When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses. Information regarding agreements is used by multiple divisions within Contoso, Ltd. User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour. Validation testing: When a new version of the `ContentAnalysisService` is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version. Issues: Users of the `ContentUploadService` report that they occasionally see HTTP `502` responses on specific pages. Code - `ContentUploadService` - `ApplicationManifest`. You need to implement the bindings for the `CheckUserContent` function. How should you complete the code segment?
 
 ![Question 215 part 1](images/question193_194_195_212_213_214_215_216_217_218_219_220_1.jpeg)
@@ -2388,6 +2444,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 217
+
 ### You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage. You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA: Messages are sent to `ContentUploadService`. Content is processed by `ContentAnalysisService`. After processing is complete, the content is posted to the social network or a rejection message is posted in its place. The `ContentAnalysisService` is deployed with Azure Container Instances from a private Azure Container Registry named `contosoimages`. The solution will use eight CPU cores. Microsoft Entra ID: Contoso, Ltd. uses Microsoft Entra ID for both internal and guest accounts. Requirements: `ContentAnalysisService` - The company's data science group built `ContentAnalysisService` which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd. You must create an Azure Function named `CheckUserContent` to perform the content checks. Costs: You must minimize costs for all Azure services. Manual review: To review content, the user must authenticate to the website portion of the `ContentAnalysisService` using their Microsoft Entra ID credentials. The website is built using React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes. High availability: All services must run in multiple regions. The failure of any service in a region must not impact overall application availability. Monitoring: An alert must be raised if the `ContentUploadService` uses more than 80 percent of available CPU cores. Security: You have the following security requirements: Any web service accessible over the Internet must be protected from cross site scripting attacks. All websites and services must use SSL from a valid root certificate authority. Azure Storage access keys must only be stored in memory and must be available only to the service. All Internal services must only be accessible from internal Virtual Networks (VNets). All parts of the system must support inbound and outbound traffic restrictions. All service calls must be authenticated by using Microsoft Entra ID. User agreements: When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses. Information regarding agreements is used by multiple divisions within Contoso, Ltd. User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour. Validation testing: When a new version of the `ContentAnalysisService` is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version. Issues: Users of the `ContentUploadService` report that they occasionally see HTTP `502` responses on specific pages. Code - `ContentUploadService` - `ApplicationManifest`. You need to add YAML markup at line CS17 to ensure that the `ContentUploadService` can access Azure Storage access keys. How should you complete the YAML markup?
 
 ![Question 217 part 1](images/question193_194_195_212_213_214_215_216_217_218_219_220_1.jpeg)
@@ -2401,6 +2459,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 218
+
 ### You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage. You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA: Messages are sent to `ContentUploadService`. Content is processed by `ContentAnalysisService`. After processing is complete, the content is posted to the social network or a rejection message is posted in its place. The `ContentAnalysisService` is deployed with Azure Container Instances from a private Azure Container Registry named `contosoimages`. The solution will use eight CPU cores. Microsoft Entra ID: Contoso, Ltd. uses Microsoft Entra ID for both internal and guest accounts. Requirements: `ContentAnalysisService` - The company's data science group built `ContentAnalysisService` which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd. You must create an Azure Function named `CheckUserContent` to perform the content checks. Costs: You must minimize costs for all Azure services. Manual review: To review content, the user must authenticate to the website portion of the `ContentAnalysisService` using their Microsoft Entra ID credentials. The website is built using React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes. High availability: All services must run in multiple regions. The failure of any service in a region must not impact overall application availability. Monitoring: An alert must be raised if the `ContentUploadService` uses more than 80 percent of available CPU cores. Security: You have the following security requirements: Any web service accessible over the Internet must be protected from cross site scripting attacks. All websites and services must use SSL from a valid root certificate authority. Azure Storage access keys must only be stored in memory and must be available only to the service. All Internal services must only be accessible from internal Virtual Networks (VNets). All parts of the system must support inbound and outbound traffic restrictions. All service calls must be authenticated by using Microsoft Entra ID. User agreements: When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses. Information regarding agreements is used by multiple divisions within Contoso, Ltd. User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour. Validation testing: When a new version of the `ContentAnalysisService` is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version. Issues: Users of the `ContentUploadService` report that they occasionally see HTTP `502` responses on specific pages. Code - `ContentUploadService` - `ApplicationManifest`. You need to deploy the `CheckUserContent` Azure Function. The solution must meet the security and cost requirements. Which hosting model should you use?
 
 ![Question 218 part 1](images/question193_194_195_212_213_214_215_216_217_218_219_220_1.jpeg)
@@ -2411,6 +2471,8 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Consumption plan.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 219
 
 ### You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage. You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA: Messages are sent to `ContentUploadService`. Content is processed by `ContentAnalysisService`. After processing is complete, the content is posted to the social network or a rejection message is posted in its place. The `ContentAnalysisService` is deployed with Azure Container Instances from a private Azure Container Registry named `contosoimages`. The solution will use eight CPU cores. Microsoft Entra ID: Contoso, Ltd. uses Microsoft Entra ID for both internal and guest accounts. Requirements: `ContentAnalysisService` - The company's data science group built `ContentAnalysisService` which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd. You must create an Azure Function named `CheckUserContent` to perform the content checks. Costs: You must minimize costs for all Azure services. Manual review: To review content, the user must authenticate to the website portion of the `ContentAnalysisService` using their Microsoft Entra ID credentials. The website is built using React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes. High availability: All services must run in multiple regions. The failure of any service in a region must not impact overall application availability. Monitoring: An alert must be raised if the `ContentUploadService` uses more than 80 percent of available CPU cores. Security: You have the following security requirements: Any web service accessible over the Internet must be protected from cross site scripting attacks. All websites and services must use SSL from a valid root certificate authority. Azure Storage access keys must only be stored in memory and must be available only to the service. All Internal services must only be accessible from internal Virtual Networks (VNets). All parts of the system must support inbound and outbound traffic restrictions. All service calls must be authenticated by using Microsoft Entra ID. User agreements: When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses. Information regarding agreements is used by multiple divisions within Contoso, Ltd. User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour. Validation testing: When a new version of the `ContentAnalysisService` is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version. Issues: Users of the `ContentUploadService` report that they occasionally see HTTP `502` responses on specific pages. Code - `ContentUploadService` - `ApplicationManifest`. You need to ensure that validation testing is triggered per the requirements. How should you complete the code segment?
 
@@ -2425,6 +2487,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 220
+
 ### You are a developer for Contoso, Ltd. The company has a social networking website that is developed as a Single Page Application (SPA). The main web application for the social networking website loads user uploaded content from blob storage. You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA: Messages are sent to `ContentUploadService`. Content is processed by `ContentAnalysisService`. After processing is complete, the content is posted to the social network or a rejection message is posted in its place. The `ContentAnalysisService` is deployed with Azure Container Instances from a private Azure Container Registry named `contosoimages`. The solution will use eight CPU cores. Microsoft Entra ID: Contoso, Ltd. uses Microsoft Entra ID for both internal and guest accounts. Requirements: `ContentAnalysisService` - The company's data science group built `ContentAnalysisService` which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd. You must create an Azure Function named `CheckUserContent` to perform the content checks. Costs: You must minimize costs for all Azure services. Manual review: To review content, the user must authenticate to the website portion of the `ContentAnalysisService` using their Microsoft Entra ID credentials. The website is built using React and all pages and API endpoints require authentication. In order to review content a user must be part of a ContentReviewer role. All completed reviews must include the reviewer's email address for auditing purposes. High availability: All services must run in multiple regions. The failure of any service in a region must not impact overall application availability. Monitoring: An alert must be raised if the `ContentUploadService` uses more than 80 percent of available CPU cores. Security: You have the following security requirements: Any web service accessible over the Internet must be protected from cross site scripting attacks. All websites and services must use SSL from a valid root certificate authority. Azure Storage access keys must only be stored in memory and must be available only to the service. All Internal services must only be accessible from internal Virtual Networks (VNets). All parts of the system must support inbound and outbound traffic restrictions. All service calls must be authenticated by using Microsoft Entra ID. User agreements: When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track user's IP addresses. Information regarding agreements is used by multiple divisions within Contoso, Ltd. User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per hour. Validation testing: When a new version of the `ContentAnalysisService` is available the previous seven days of content must be processed with the new version to verify that the new version does not significantly deviate from the old version. Issues: Users of the `ContentUploadService` report that they occasionally see HTTP `502` responses on specific pages. Code - `ContentUploadService` - `ApplicationManifest`. You need to configure the `ContentUploadService` deployment. Which two actions should you perform?
 
 ![Question 220 part 1](images/question193_194_195_212_213_214_215_216_217_218_219_220_1.jpeg)
@@ -2436,5 +2500,6 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
 
 
