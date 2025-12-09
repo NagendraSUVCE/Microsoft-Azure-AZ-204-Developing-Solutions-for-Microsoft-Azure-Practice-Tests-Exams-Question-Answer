@@ -395,12 +395,16 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 4
+
 ### You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2. When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute. You need to design the process that starts the photo processing. Solution: Trigger the photo processing from Blob storage events. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 5
 
 ### You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named `Development`. You create additional deployment slots named `Testing` and `Production`. You enable auto swap on the `Production` deployment slot. You need to ensure that scripts run and resources are available before a swap operation occurs. Solution: Update the `web.config` file to include the `applicationInitialization` configuration element. Specify custom initialization actions to run the scripts. Does the solution meet the goal?
 
@@ -430,6 +434,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 9
+
 ### You are developing an Azure Web App. You configure TLS mutual authentication for the web app. You need to validate the client certificate in the web app.
 
 ![Question 9](images/question9.jpeg)
@@ -441,6 +447,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 10
+
 ### You are developing a Docker/Go using Azure App Service Web App for Containers. You plan to run the container in an App Service on Linux. You identify a Docker container image to use. None of your current resource groups reside in a location that supports Linux. You must minimize the number of resource groups required. You need to create the application and perform an initial deployment. Which three Azure CLI commands should you use to develop the solution?
 
 ![Question 10](images/question10.png)
@@ -451,6 +459,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Box 1: `az appservice plan create`. Box 2: `az webapp create`. Box 3: `az webapp update`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Question 11
 
 ### Fourth Coffee has an ASP.NET Core web app that runs in Docker. The app is mapped to the `www.fourthcoffee.com` domain. Fourth Coffee is migrating this application to Azure. You need to provision an App Service Web App to host this docker image and map the custom domain to the App Service web app. A resource group named `FourthCoffeePublicWebResourceGroup` has been created in the WestUS region that contains an App Service Plan named `AppServiceLinuxDockerPlan`. Which order should the CLI commands be used to develop the solution?
 
@@ -506,6 +516,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 16
 ### You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob. The app continues to time out after four minutes. The app must process the blob data. You need to ensure the app does not time out and processes the blob data. Solution: Use the Durable Function async pattern to process the blob data. Does the solution meet the goal?
 
 - [x] Yes.
@@ -513,6 +524,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 17
 ### You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob. The app continues to time out after four minutes. The app must process the blob data. You need to ensure the app does not time out and processes the blob data. Solution: Pass the HTTP trigger payload into an Azure Service Bus queue to be processed by a queue trigger function and return an immediate HTTP success response. Does the solution meet the goal?
 
 - [x] Yes.
@@ -520,13 +532,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### Question 18
 ### You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob. The app continues to time out after four minutes. The app must process the blob data. You need to ensure the app does not time out and processes the blob data. Solution: Configure the app to use an App Service hosting plan and enable the Always On setting. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
-
+### Question 19
 ### You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2. When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute. You need to design the process that starts the photo processing. Solution: Move photo processing to an Azure Function triggered from the blob upload. Does the solution meet the goal?
 
 - [x] Yes.
@@ -2500,6 +2513,7 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
 
 
 
